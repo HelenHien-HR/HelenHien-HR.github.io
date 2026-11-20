@@ -4,8 +4,18 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <style>:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0}img{max-width:100%}[hidden]{display:none!important}</style>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%233A2A1E'/%3E%3Ctext x='32' y='46' font-family='Georgia,serif' font-size='42' text-anchor='middle' fill='%23DDB36F'%3EH%3C/text%3E%3C/svg%3E">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="vi_VN">
+<meta property="og:url" content="https://helenhien-hr.github.io/">
+<meta property="og:title" content="Nguyễn Thu Hiền (Helen Hiền) · Tư vấn vận hành, nhân sự và quản trị doanh nghiệp">
+<meta property="og:description" content="Hơn 12 năm hành chính nhân sự, pháp lý doanh nghiệp và quản trị công ty. Tái cấu trúc sau sáp nhập, thoái vốn với nhà đầu tư nước ngoài, dựng bộ máy nhân sự từ đầu.">
+<meta property="og:image" content="https://helenhien-hr.github.io/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
 <title>Nguyễn Thu Hiền</title>
-<meta name="description" content="Nguyễn Thu Hiền - Tư vấn vận hành, nhân sự và quản trị doanh nghiệp. Hơn 12 năm hành chính nhân sự, pháp lý doanh nghiệp, tái cấu trúc và M&A.">
+<meta name="description" content="Nguyễn Thu Hiền (Helen Hiền) - Tư vấn vận hành, nhân sự và quản trị doanh nghiệp. Hơn 12 năm hành chính nhân sự, pháp lý doanh nghiệp, tái cấu trúc và M&A.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Literata:opsz,wght@7..72,400;7..72,500;7..72,600&family=Be+Vietnam+Pro:wght@400;500;600&display=swap">
@@ -43,8 +53,10 @@ body{background:var(--paper);color:var(--ink);font-family:var(--body);font-size:
 @media (max-width:600px){.wrap{padding-left:max(16px, env(safe-area-inset-left, 0px));padding-right:max(16px, env(safe-area-inset-right, 0px))}}
 h1,h2,h3{font-family:var(--display);font-weight:500;text-wrap:balance;margin:0;line-height:1.2}
 p{margin:0}
-p,li,.kpi .ctx{text-align:justify;text-justify:inter-word}
-h1,h2,h3,h4,.eyebrow,.status,.proof{text-align:left}
+p,li{text-align:justify;text-justify:inter-word}
+h1,h2,h3,h4,.eyebrow,.status,.proof,.role,.kpi .ctx,.case-grid .res p{text-align:left}
+@media (max-width:600px){p,li{text-align:left}}
+.hero h1 .aka{display:block;margin-top:14px;font-family:var(--body);font-size:.28em;font-weight:500;letter-spacing:.16em;text-transform:uppercase;color:var(--band-muted);line-height:1.3}
 a:focus-visible,button:focus-visible{outline:2px solid var(--gold-band);outline-offset:3px;border-radius:4px}
 .eyebrow{font-size:.76rem;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--gold)}
 .band .eyebrow{color:var(--gold-band)}
@@ -97,6 +109,7 @@ nav a.nav-cta:hover{color:var(--band)}
 @media (max-width:860px){
   .creds .wrap{grid-template-columns:repeat(2,minmax(0,1fr))}
   .cred{padding:22px 16px}
+  .cred b{font-size:1.55rem;white-space:nowrap}
   .cred:nth-child(odd){border-left:0;padding-left:0}
   .cred:nth-child(n+3){border-top:1px solid var(--band-line)}
 }
@@ -223,9 +236,9 @@ footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:8px 2
     <div class="wrap">
       <div class="hero-text">
         <p class="eyebrow">Tư vấn vận hành, nhân sự và quản trị doanh nghiệp</p>
-        <h1>Nguyễn Thu Hiền</h1>
+        <h1>Nguyễn Thu Hiền<span class="aka">Helen Hiền</span></h1>
         <p class="role">Xây bộ máy vận hành có quy chế, có quy trình và có người chịu trách nhiệm.</p>
-        <p class="lede">Hơn 12 năm ở vai trò hành chính nhân sự, pháp lý doanh nghiệp và quản trị công ty. Đã dẫn dắt tái cấu trúc sau sáp nhập, thương vụ thoái vốn với nhà đầu tư nước ngoài, và dựng bộ máy nhân sự từ đầu cho tổ chức đến 300 người.</p>
+        <p class="lede">Hơn 12 năm ở vai trò hành chính nhân sự, pháp lý doanh nghiệp và quản trị công ty. Đã dẫn dắt tái cấu trúc sau sáp nhập, thương vụ thoái vốn với nhà đầu tư nước ngoài và dựng bộ máy nhân sự từ đầu cho tổ chức đến 300 người.</p>
         <p class="status">Đang công tác tại Goldsun Media · Nhận dự án tư vấn độc lập</p>
         <div class="actions">
           <a class="btn primary" href="#lien-he">Liên hệ trao đổi</a>
@@ -243,7 +256,7 @@ footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:8px 2
       <div class="cred"><b>12+ năm</b><span>Hành chính nhân sự, pháp lý doanh nghiệp, quản trị công ty</span></div>
       <div class="cred"><b>300</b><span>Nhân sự, quy mô tổ chức lớn nhất đã phụ trách</span></div>
       <div class="cred"><b>2 thương vụ</b><span>Sáp nhập nội bộ và thoái vốn với nhà đầu tư nước ngoài</span></div>
-      <div class="cred"><b>6+ năm</b><span>Trưởng phòng HCNS, trợ lý Chủ tịch HĐQT và Tổng Giám đốc</span></div>
+      <div class="cred"><b>6+ năm</b><span>Trưởng phòng HCNS kiêm trợ lý Chủ tịch HĐQT và Ban Giám đốc</span></div>
     </div>
   </div>
 </div>
@@ -266,10 +279,10 @@ footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:8px 2
           <span class="was">Trước đây: <b>vài ngày</b></span>
         </div>
         <div class="kpi">
-          <span class="fig">8-10 quy trình</span>
+          <span class="fig">1 bộ quy trình</span>
           <span class="lbl">Chuẩn hóa sau sáp nhập</span>
-          <span class="ctx">Quy trình làm việc thống nhất cho 8-10 phòng ban của tổ chức sau sáp nhập.</span>
-          <span class="was">Kèm theo: <b>một quy chế lương chung</b></span>
+          <span class="ctx">Thống nhất quy trình làm việc của 8-10 phòng ban và một quy chế lương chung.</span>
+          <span class="was">Trước đây: <b>hai hệ thống riêng</b></span>
         </div>
         <div class="kpi">
           <span class="fig">5-10 phút</span>
@@ -304,7 +317,7 @@ footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:8px 2
         <div class="service">
           <h3>Chuẩn hóa quy trình</h3>
           <p>Quy trình làm việc của từng phòng ban và quy trình liên phòng ban, để các bộ phận phối hợp theo một chuẩn chung.</p>
-          <p class="proof">8-10 quy trình cho 8-10 phòng ban</p>
+          <p class="proof">Áp dụng cho toàn bộ phòng ban sau sáp nhập</p>
         </div>
         <div class="service">
           <h3>Dựng phòng Hành chính Nhân sự</h3>
@@ -313,13 +326,13 @@ footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:8px 2
         </div>
         <div class="service">
           <h3>Triển khai phần mềm quản trị nhân sự</h3>
-          <p>Chấm công, tính lương, hồ sơ nhân sự, onboarding, đề xuất và quy trình phê duyệt trên một hệ thống. Kèm số hóa hồ sơ lưu trữ.</p>
+          <p>Chấm công, tính lương, hồ sơ nhân sự, tiếp nhận nhân sự mới, đề xuất và quy trình phê duyệt trên một hệ thống. Kèm số hóa hồ sơ lưu trữ.</p>
           <p class="proof">Làm tại cả Goldsun Focus Media và Goldsun Media</p>
         </div>
         <div class="service">
           <h3>Quản trị công ty</h3>
-          <p>Công tác Hội đồng quản trị, quan hệ cổ đông, Đại hội đồng cổ đông, hệ thống văn bản quản trị nội bộ, hồ sơ làm việc với nhà đầu tư và hồ sơ đại chúng hóa.</p>
-          <p class="proof">Làm tại cả Goldsun Focus Media và Goldsun Media</p>
+          <p>Công tác Hội đồng quản trị, quan hệ cổ đông, Đại hội đồng cổ đông, hệ thống văn bản quản trị nội bộ, hồ sơ làm việc với nhà đầu tư, hồ sơ đại chúng hóa và niêm yết.</p>
+          <p class="proof">Goldsun Focus Media và công ty mẹ của Goldsun Media</p>
         </div>
       </div>
     </div>
@@ -341,7 +354,7 @@ footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:8px 2
             <span class="case-meta">Goldsun Focus Media · 2 năm</span>
           </div>
           <div class="case-grid">
-            <div><h4>Bối cảnh</h4><p>Hai công ty, mỗi bên 100-120 nhân sự, với cơ cấu, chính sách và văn hóa riêng, hợp nhất thành một tổ chức.</p></div>
+            <div><h4>Bối cảnh</h4><p>Goldsun Framedia sáp nhập vào Goldsun Focus Media. Mỗi bên 100-120 nhân sự, có cơ cấu, chính sách và văn hóa riêng.</p></div>
             <div><h4>Việc đã làm</h4>
               <ul>
                 <li>Tái cấu trúc tổ chức, định biên, trách nhiệm và chính sách nhân sự.</li>
@@ -349,7 +362,7 @@ footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:8px 2
                 <li>Dẫn dắt hòa hợp văn hóa qua truyền thông thay đổi.</li>
               </ul>
             </div>
-            <div class="res"><h4>Kết quả</h4><p class="big">250-300 nhân sự</p><p>Quy mô tổ chức sau tái cấu trúc và tuyển bổ sung, vận hành trên 8-10 quy trình và một quy chế lương chung.</p></div>
+            <div class="res"><h4>Kết quả</h4><p class="big">250-300 nhân sự</p><p>Quy mô tổ chức sau tái cấu trúc và tuyển bổ sung, vận hành trên một bộ quy trình và một quy chế lương chung.</p></div>
           </div>
         </article>
 
@@ -367,7 +380,7 @@ footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:8px 2
                 <li>Điều phối và kiểm soát toàn bộ công việc nội bộ của giao dịch.</li>
               </ul>
             </div>
-            <div class="res"><h4>Kết quả</h4><p class="big">Hoàn tất</p><p>Dẫn dắt thương vụ đến khi giao dịch hoàn tất.</p></div>
+            <div class="res"><h4>Kết quả</h4><p class="big">4 bên</p><p>Điều phối tư vấn pháp lý, tư vấn tài chính, kiểm toán và ngân hàng đến khi giao dịch hoàn tất.</p></div>
           </div>
         </article>
 
@@ -381,9 +394,9 @@ footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:8px 2
             <div><h4>Việc đã làm</h4>
               <ul>
                 <li>Dựng phòng HCNS và hệ thống dữ liệu nhân sự cùng lúc.</li>
-                <li>Triển khai đủ phân hệ: chấm công, tính lương, hồ sơ, onboarding, Wework, Request, Workflow.</li>
+                <li>Triển khai đủ phân hệ: chấm công, tính lương, hồ sơ, tiếp nhận nhân sự mới, giao việc (Wework), đề xuất (Request), quy trình (Workflow).</li>
                 <li>Số hóa hồ sơ 5-8 năm gần nhất; hồ sơ pháp lý từ ngày thành lập.</li>
-                <li>Năm 2022 hỗ trợ Goldsun Media triển khai cùng hệ thống, vai trò cộng tác viên.</li>
+                <li>Từ 2022 trực tiếp dẫn dắt triển khai và dựng phòng HCNS tại Goldsun Media (hợp đồng cộng tác viên đến 03/2024, chính thức từ 04/2024).</li>
               </ul>
             </div>
             <div class="res"><h4>Kết quả</h4><p class="big">5-10 phút</p><p>Xuất một báo cáo nhân sự. Công lương, giờ giấc và nghỉ phép được kiểm soát trên một hệ thống.</p></div>
@@ -396,14 +409,14 @@ footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:8px 2
             <span class="case-meta">Goldsun Focus Media · Goldsun Media</span>
           </div>
           <div class="case-grid">
-            <div><h4>Bối cảnh</h4><p>Phần lớn hồ sơ, đề xuất đều dồn về Giám đốc ký, một đề xuất mất vài ngày mới được duyệt.</p></div>
+            <div><h4>Bối cảnh</h4><p>Luồng phê duyệt tập trung ở cấp cao nhất, một đề xuất mất vài ngày mới được duyệt.</p></div>
             <div><h4>Việc đã làm</h4>
               <ul>
                 <li>Xây ma trận phân quyền, quy chế phân cấp phê duyệt và quy trình liên phòng ban.</li>
                 <li>Phân cấp các hồ sơ, đề xuất thường xuyên xuống cấp quản lý phù hợp.</li>
               </ul>
             </div>
-            <div class="res"><h4>Kết quả</h4><p class="big">Trong ngày</p><p>Thời gian duyệt đề xuất. Giám đốc không còn phải ký các hồ sơ thường xuyên.</p></div>
+            <div class="res"><h4>Kết quả</h4><p class="big">Trong ngày</p><p>Thời gian duyệt đề xuất. Cấp lãnh đạo không còn phải ký các hồ sơ thường xuyên.</p></div>
           </div>
         </article>
       </div>
@@ -444,9 +457,9 @@ footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:8px 2
           <li class="job">
             <time>04/2024 - nay</time>
             <div>
-              <h3>Trưởng phòng Hành chính Nhân sự, kiêm Trợ lý Giám đốc</h3>
+              <h3>Trưởng phòng Hành chính Nhân sự, kiêm Trợ lý Chủ tịch HĐQT và Trợ lý Giám đốc</h3>
               <p class="org">Goldsun Media · Công ty TNHH Mặt Trời Vàng</p>
-              <p class="desc">Dựng phòng HCNS từ đầu, phụ trách HCNS cho công ty và công ty mẹ, 120-130 nhân sự. Kiêm quản trị và pháp lý doanh nghiệp, phụ trách công tác HĐQT và quan hệ cổ đông tại công ty mẹ (Công ty CP Marketing Mặt Trời Vàng).</p>
+              <p class="desc">Từ 2022 dựng phòng HCNS từ đầu và dẫn dắt triển khai Base HRM theo hợp đồng cộng tác viên; ký hợp đồng chính thức từ 04/2024. Phụ trách HCNS cho công ty và công ty mẹ, 120-130 nhân sự. Kiêm quản trị và pháp lý doanh nghiệp, phụ trách công tác HĐQT và quan hệ cổ đông tại công ty mẹ (Công ty CP Marketing Mặt Trời Vàng).</p>
             </div>
           </li>
           <li class="job">
@@ -477,7 +490,7 @@ footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:8px 2
         <aside class="side">
           <h3>Học vấn và chứng chỉ</h3>
           <ul class="edu">
-            <li><strong>Thạc sĩ Quản trị nhân lực</strong><span>Đại học Kinh tế Quốc dân · dự kiến 05/2027</span></li>
+            <li><strong>Thạc sĩ Quản trị nhân lực (đang theo học)</strong><span>Đại học Kinh tế Quốc dân · dự kiến tốt nghiệp 05/2027</span></li>
             <li><strong>Cử nhân Quản trị văn phòng, loại Giỏi</strong><span>Đại học Nội vụ Hà Nội</span></li>
             <li><strong>Chứng chỉ Giám đốc Nhân sự</strong><span>Trường Đào tạo Doanh nhân PTI</span></li>
             <li><strong>Chứng chỉ Kế toán tổng hợp</strong><span>Đại học Kinh tế Quốc dân</span></li>
@@ -509,7 +522,7 @@ footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:8px 2
     </div>
   </section>
   <footer>
-    <div class="wrap"><span>© 2026 Nguyễn Thu Hiền</span><span>Tư vấn vận hành, nhân sự và quản trị doanh nghiệp</span></div>
+    <div class="wrap"><span>© 2026 Nguyễn Thu Hiền (Helen Hiền)</span><span>Tư vấn vận hành, nhân sự và quản trị doanh nghiệp</span></div>
   </footer>
 </div>
 
